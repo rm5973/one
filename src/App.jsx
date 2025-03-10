@@ -5,6 +5,7 @@ import Sidebar from "./components/Sidebar";
 import Organization from "./components/Organization/landingpage/OrganizationInfo";
 import Landingpage from "./components/Organization/landingpage/Landingpage";
 import QElandingpage from "./components/NexGen_QE/landingpage.jsx/QElandingpage";
+import EmulatorStream from "./components/Complaince/emulatorstream";
 // import Project360 from "./components/Project360";
 // import ComplianceIQ from "./components/ComplianceIQ";
 // import NexGenQE from "./components/NexGenQE";
@@ -20,7 +21,7 @@ const pageComponents = {
   // p360Dashboard: <Project360 />,
   // p360Gantt: <Project360 />,
   // p360Tasks: <Project360 />,
-  // ciqDashboard: <ComplianceIQ />,
+  ciqDashboard: <EmulatorStream />,
   // ciqAudit: <ComplianceIQ />,
   nexGenQE: <QElandingpage />,
   // nqeDashboard: <NexGenQE />,
